@@ -53,3 +53,6 @@ Host is up.
 
 This confirms that the target machine is reachable and ready for further scanning.
 
+<img width="553" height="131" alt="image" src="https://github.com/user-attachments/assets/c953bcd4-ff7e-47d6-8549-39d5d25dc8d6" />
+
+
