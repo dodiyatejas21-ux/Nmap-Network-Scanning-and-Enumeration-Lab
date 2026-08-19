@@ -112,5 +112,28 @@ To identify the running services and their versions on the Metasploitable 2 targ
 Note: The actual service and version information may vary depending on the target configuration.
 
  <img width="1030" height="582" alt="image" src="https://github.com/user-attachments/assets/c454bf55-7e3c-459c-8765-508434d6a40a" />
-
  
+## Step 5: OS Detection
+In this step, Nmap is used to identify the operating system of the target machine.
+
+### Command
+nmap -O 192.168.126.131
+
+### Purpose
+To detect the operating system running on the Metasploitable 2 target machine.
+
+### Target IP
+192.168.126.131
+
+### Example Result
+| Target IP | Detected Operating System |
+|-----------|---------------------------|
+| 192.168.126.131 | Linux |
+
+### Result
+
+The Nmap scan attempts to identify the operating system and provides information about the target's OS.
+
+Note: OS detection may not always be accurate and can depend on the target configuration and network conditions.
+
+
