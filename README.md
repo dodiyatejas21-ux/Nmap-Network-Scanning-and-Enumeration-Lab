@@ -20,6 +20,6 @@ Nmap (Network Mapper) is a powerful open-source tool used for network discovery 
 - **Nmap** – Used to scan hosts, ports, and services.
 - **Terminal** – Used to run Nmap commands.
 - **Target Machine (Metasploitable 2)** – Used as the authorized scanning target.
-- **VirtualBox / VMware** – Used to create the lab environment.
+- **VMware** – Used to create the lab environment.
 - **Networking Basics** – Required to understand IPs, ports, and services.
 
