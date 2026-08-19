@@ -16,10 +16,9 @@ Nmap (Network Mapper) is a powerful open-source tool used for network discovery 
 
 ## Requirements
 
-- Kali Linux
-- Nmap
-- Terminal
-- Target Machine
-- VMware
-- Basic Networking Knowledge
-- Authorized Lab Environment
+- **Kali Linux** – Used for network scanning.
+- **Nmap** – Used to scan hosts, ports, and services.
+- **Terminal** – Used to run Nmap commands.
+- **Target Machine** – System used for authorized scanning.
+- **VirtualBox / VMware** – Used to create the lab environment.
+- **Networking Basics** – Required to understand IPs, ports, and services.
