@@ -48,6 +48,8 @@ To discover whether the Metasploitable 2 machine is active on the network.
 192.168.126.131
 ### Expected Result
 If the target is active, Nmap will show:
+
 Host is up.
+
 This confirms that the target machine is reachable and ready for further scanning.
 
