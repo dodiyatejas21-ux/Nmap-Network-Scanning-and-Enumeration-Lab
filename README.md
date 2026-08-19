@@ -23,3 +23,20 @@ Nmap (Network Mapper) is a powerful open-source tool used for network discovery 
 - **VMware** – Used to create the lab environment.
 - **Networking Basics** – Required to understand IPs, ports, and services.
 
+## Step 1: Lab Setup & Target Identification
+In this step, Kali Linux and Metasploitable 2 are started in the virtual lab environment. The IP address of the Metasploitable 2 machine is identified before performing Nmap scanning.
+
+### Command
+ifconfig
+or
+ip addr
+
+### Target IP Address
+192.168.126.131
+
+### Purpose
+To identify the IP address of the Metasploitable 2 target machine for further Nmap scanning.
+
+### Target
+Metasploitable 2 – Authorized Lab Target
+<img width="912" height="495" alt="image" src="https://github.com/user-attachments/assets/fb98173b-bdce-4fef-9f35-b5fabc436ae5" />
