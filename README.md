@@ -111,5 +111,6 @@ To identify the running services and their versions on the Metasploitable 2 targ
 
 Note: The actual service and version information may vary depending on the target configuration.
 
- 
+ <img width="1030" height="582" alt="image" src="https://github.com/user-attachments/assets/c454bf55-7e3c-459c-8765-508434d6a40a" />
+
  
