@@ -128,12 +128,14 @@ To detect the operating system running on the Metasploitable 2 target machine.
 ### Example Result
 | Target IP | Detected Operating System |
 |-----------|---------------------------|
-| 192.168.126.131 | Linux |
+| 192.168.126.131 | Linux 2.6.X |
 
 ### Result
 
 The Nmap scan attempts to identify the operating system and provides information about the target's OS.
 
 Note: OS detection may not always be accurate and can depend on the target configuration and network conditions.
+
+<img width="769" height="632" alt="Screenshot 2026-08-19 162413" src="https://github.com/user-attachments/assets/fad232fd-84c1-4167-8a12-2605d0c10552" />
 
 
