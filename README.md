@@ -59,7 +59,7 @@ This confirms that the target machine is reachable and ready for further scannin
 In this step, Nmap is used to scan the target machine and identify open TCP ports.
 
 ### Command
-nmap 192.168.126.131
+nmap -p- 192.168.126.131
 
 ### Purpose
 To identify open ports and the services running on the Metasploitable 2 target.
@@ -84,3 +84,32 @@ Nmap will display the open ports, port numbers, protocols, and associated servic
 | 3306/tcp | open | mysql |
 
 Note: This is an example table. Actual results may vary depending on the Nmap scan.
+
+<img width="629" height="645" alt="image" src="https://github.com/user-attachments/assets/b8045932-23bc-488a-be2b-4f078e866933" />
+
+## Step 4: Service and Version Detection
+In this step, Nmap is used to identify the services running on the open ports and detect their version information.
+
+### Command
+nmap -sV 192.168.126.131
+
+### Purpose
+To identify the running services and their versions on the Metasploitable 2 target.
+
+### Target IP
+192.168.126.131
+
+### Example Result
+
+| Port | State | Service | Version |
+|------|-------|---------|---------|
+| 21/tcp | open | ftp | vsftpd |
+| 22/tcp | open | ssh | OpenSSH |
+| 23/tcp | open | telnet | Linux telnetd |
+| 80/tcp | open | http | Apache |
+| 3306/tcp | open | mysql | MySQL |
+
+Note: The actual service and version information may vary depending on the target configuration.
+
+ 
+ 
