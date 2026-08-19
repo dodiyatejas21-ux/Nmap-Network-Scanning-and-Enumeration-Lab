@@ -71,6 +71,7 @@ To identify open ports and the services running on the Metasploitable 2 target.
 Nmap will display the open ports, port numbers, protocols, and associated services.
 
 ### Example
+
 PORT     STATE    SERVICE
 21/tcp   open     ftp
 22/tcp   open     ssh
