@@ -55,4 +55,26 @@ This confirms that the target machine is reachable and ready for further scannin
 
 <img width="553" height="131" alt="image" src="https://github.com/user-attachments/assets/c953bcd4-ff7e-47d6-8549-39d5d25dc8d6" />
 
+## Step 3: Port Scanning
+In this step, Nmap is used to scan the target machine and identify open TCP ports.
 
+### Command
+nmap 192.168.126.131
+
+### Purpose
+To identify open ports and the services running on the Metasploitable 2 target.
+
+### Target IP
+192.168.126.131
+
+### Expected Result
+Nmap will display the open ports, port numbers, protocols, and associated services.
+
+### Example
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   open     ssh
+23/tcp   open     telnet
+80/tcp   open     http
+
+Note: The actual results may vary depending on the target configuration.
