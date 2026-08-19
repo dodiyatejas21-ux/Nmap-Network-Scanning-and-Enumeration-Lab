@@ -37,3 +37,17 @@ To identify the IP address of the Metasploitable 2 target machine for further Nm
 Metasploitable 2 – Authorized Lab Target
 
 <img width="912" height="495" alt="image" src="https://github.com/user-attachments/assets/fb98173b-bdce-4fef-9f35-b5fabc436ae5" />
+
+## Step 2: Host Discovery
+In this step, Nmap is used to check whether the target machine is active and reachable on the network.
+### Command
+nmap -sn 192.168.126.131
+### Purpose
+To discover whether the Metasploitable 2 machine is active on the network.
+### Target IP
+192.168.126.131
+### Expected Result
+If the target is active, Nmap will show:
+Host is up.
+This confirms that the target machine is reachable and ready for further scanning.
+
