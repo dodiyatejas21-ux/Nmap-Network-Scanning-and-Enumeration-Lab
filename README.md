@@ -138,4 +138,30 @@ Note: OS detection may not always be accurate and can depend on the target confi
 
 <img width="769" height="632" alt="Screenshot 2026-08-19 162413" src="https://github.com/user-attachments/assets/fad232fd-84c1-4167-8a12-2605d0c10552" />
 
+## Step 6: Vulnerability Scanning Using NSE
+In this step, Nmap Scripting Engine (NSE) is used to perform basic vulnerability checks on the target machine.
+
+### Command
+nmap --script vuln 192.168.126.131
+
+### Purpose
+To identify potential vulnerabilities and security issues associated with the services running on the Metasploitable 2 target.
+
+### Target IP
+192.168.126.131
+
+### Result
+The NSE vulnerability scan checks the available services and reports potential security weaknesses found on the target system.
+
+### Note
+This scan is performed only on the authorized Metasploitable 2 lab environment.
+
+<img width="1273" height="765" alt="Screenshot 2026-08-20 062037" src="https://github.com/user-attachments/assets/58660cde-874c-428c-89e8-f0a4414a32c0" />
+<img width="1022" height="772" alt="Screenshot 2026-08-20 062613" src="https://github.com/user-attachments/assets/e255fe3f-5f50-4777-b14f-ff62ebcb3656" />
+<img width="963" height="789" alt="Screenshot 2026-08-20 062801" src="https://github.com/user-attachments/assets/d2b25747-b2a0-4061-8e78-40f68e5dd559" />
+<img width="1084" height="783" alt="Screenshot 2026-08-20 063013" src="https://github.com/user-attachments/assets/575d1d48-eb10-41b3-913e-68e6b851942a" />
+<img width="1073" height="780" alt="Screenshot 2026-08-20 063104" src="https://github.com/user-attachments/assets/c4bdef21-703c-49d5-a399-551842a5c5b4" />
+<img width="978" height="777" alt="Screenshot 2026-08-20 063142" src="https://github.com/user-attachments/assets/dd9af917-4149-451f-8433-465e18192173" />
+<img width="958" height="784" alt="Screenshot 2026-08-20 063247" src="https://github.com/user-attachments/assets/0871fe67-2653-4638-b3c4-18c4f1cfbaf0" />
+<img width="946" height="219" alt="Screenshot 2026-08-20 063316" src="https://github.com/user-attachments/assets/923816b1-4581-44ea-aeaa-2361153ebd18" />
 
