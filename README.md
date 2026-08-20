@@ -191,3 +191,10 @@ The aggressive scan provides detailed information about the Metasploitable 2 sys
 ### Note
 This scan is performed only on the authorized Metasploitable 2 lab environment
 
+<img width="1249" height="760" alt="Screenshot 2026-08-20 065940" src="https://github.com/user-attachments/assets/6a62dbec-bbd8-4fb0-9630-9516c89a1981" />
+<img width="1402" height="783" alt="Screenshot 2026-08-20 070028" src="https://github.com/user-attachments/assets/5a382c55-4be6-49e7-bfd9-af0469194958" />
+<img width="1077" height="516" alt="Screenshot 2026-08-20 070124" src="https://github.com/user-attachments/assets/edfa6c3c-6ba3-4fe1-8432-a97efdc01d8c" />
+
+
+
+
