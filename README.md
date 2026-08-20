@@ -165,3 +165,29 @@ This scan is performed only on the authorized Metasploitable 2 lab environment.
 <img width="958" height="784" alt="Screenshot 2026-08-20 063247" src="https://github.com/user-attachments/assets/0871fe67-2653-4638-b3c4-18c4f1cfbaf0" />
 <img width="946" height="219" alt="Screenshot 2026-08-20 063316" src="https://github.com/user-attachments/assets/923816b1-4581-44ea-aeaa-2361153ebd18" />
 
+## Step 7: Aggressive Scan
+In this step, Nmap is used to perform an aggressive scan to gather detailed information about the target system.
+
+### Command
+nmap -A 192.168.126.131
+
+### Purpose
+To collect detailed information about the target, including open ports, services, service versions, operating system, and network information.
+
+### Target IP
+192.168.126.131
+
+### Result
+The aggressive scan provides detailed information about the Metasploitable 2 system and its running services.
+
+### Information Gathered
+- Open ports
+- Running services
+- Service versions
+- Operating system details
+- Network information
+- Additional script-based information
+
+### Note
+This scan is performed only on the authorized Metasploitable 2 lab environment
+
