@@ -245,3 +245,7 @@ The Nmap Network Scanning and Enumeration Lab was successfully completed on the 
 
 ### Final Outcome
 The project successfully demonstrated the practical use of Nmap for network discovery, port scanning, service enumeration, OS detection, and security analysis in an authorized lab environment.
+
+**Regards**
+Tejas Dodiya
+Cyber Security Student
