@@ -195,6 +195,31 @@ This scan is performed only on the authorized Metasploitable 2 lab environment
 <img width="1402" height="783" alt="Screenshot 2026-08-20 070028" src="https://github.com/user-attachments/assets/5a382c55-4be6-49e7-bfd9-af0469194958" />
 <img width="1077" height="516" alt="Screenshot 2026-08-20 070124" src="https://github.com/user-attachments/assets/edfa6c3c-6ba3-4fe1-8432-a97efdc01d8c" />
 
+## Step 8: Scan Summary & Analysis
+In this step, the results obtained from the different Nmap scans are reviewed and analyzed to understand the network exposure of the Metasploitable 2 target.
 
+### Target IP
+192.168.126.131
+
+### Summary
+| Scan Type | Nmap Command | Purpose |
+|-----------|--------------|---------|
+| Host Discovery | nmap -sn 192.168.126.131 | Check whether the host is active |
+| Port Scanning | nmap 192.168.126.131 | Identify open ports |
+| Service Detection | nmap -sV 192.168.126.131 | Identify services and versions |
+| OS Detection | nmap -O 192.168.126.131 | Identify the operating system |
+| Vulnerability Scan | nmap --script vuln 192.168.126.131 | Check for potential vulnerabilities |
+| Aggressive Scan | nmap -A 192.168.126.131 | Collect detailed target information |
+
+### Key Findings
+- The target host is **up and reachable**.
+- Multiple TCP ports are **open**.
+- Several network services are running on the target.
+- The operating system was detected as **Linux 2.6.X**.
+- NSE scanning can be used to identify potential security weaknesses.
+- The target provides a good environment for practicing network scanning and enumeration.
+
+### Result
+The Nmap scans successfully collected information about the Metasploitable 2 target, including its open ports, services, and operating system details.
 
 
