@@ -222,14 +222,14 @@ In this step, the results obtained from the different Nmap scans are reviewed an
 ### Result
 The Nmap scans successfully collected information about the Metasploitable 2 target, including its open ports, services, and operating system details.
 
-## Step 9: Conclusion
+## Conclusion
 This project provided practical knowledge of Nmap network scanning and enumeration techniques. The scans were successfully performed on the authorized Metasploitable 2 lab machine using different Nmap commands.
 
 The project helped in understanding host discovery, port scanning, service and version detection, OS detection, NSE vulnerability scanning, and aggressive scanning.
 
 Overall, Nmap is a useful tool for identifying network information and analyzing the security posture of systems in an authorized environment.
 
-## Step 10: Final Result
+## Final Result
 
 The Nmap Network Scanning and Enumeration Lab was successfully completed on the authorized Metasploitable 2 target.
 
